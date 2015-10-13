@@ -16,7 +16,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # scoop up the static files for css and js
-STATIC_ROOT = "/home/craigderington/pyTweet/static"
+STATIC_ROOT = "/home/craigderington/static"
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
@@ -39,6 +39,13 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
+    'bootstrap3',
+    'rest_framework',
+    'fontawesome',
+    'registration',
+    'tweepy',
+    'twitter-monitor',
 )
 
 MIDDLEWARE_CLASSES = (
