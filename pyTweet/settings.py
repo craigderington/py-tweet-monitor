@@ -45,7 +45,7 @@ INSTALLED_APPS = (
     'fontawesome',
     'registration',
     'tweepy',
-    'twitter-monitor',
+    'twitter_monitor',
 )
 
 MIDDLEWARE_CLASSES = (
